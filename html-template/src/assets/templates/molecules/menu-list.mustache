@@ -1,0 +1,15 @@
+{{#mol-menu-list}}
+  <nav class="nav-bar">
+    <input type="checkbox" id="drop-down-cbox" />
+    <label for="drop-down-cbox">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul class="main-nav">
+      {{#list}}
+        <li><a href="#">{{{name}}}</a></li>
+      {{/list}}
+    </ul>
+  </nav>
+{{/mol-menu-list}}

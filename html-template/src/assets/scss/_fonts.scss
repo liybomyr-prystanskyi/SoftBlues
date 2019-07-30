@@ -1,0 +1,27 @@
+/* Variables */
+$fontPath: '../fonts/';
+
+/* Font faces */
+@font-face {
+  font-family: 'font-name';
+  src: url('#{$fontPath}/font-name.font-extension') format('format');
+}
+
+
+@font-face {
+  font-family: 'tahoma-bold';
+  src: url('#{$fontPath}/Tahoma-Bold.ttf'); /* IE9 Compat Modes */
+  src: local('tahoma-bold'), local('tahoma-bold'),
+       url('#{$fontPath}/Tahoma-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Tahoma-Bold.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Tahoma-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'tahoma-regular';
+  src: url('#{$fontPath}/Tahoma.ttf'); /* IE9 Compat Modes */
+  src: local('Tahoma'), local('Tahoma'),
+       url('#{$fontPath}/Tahoma.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$fontPath}/Tahoma.woff') format('woff'), /* Modern Browsers */
+       url('#{$fontPath}/Tahoma.ttf') format('truetype'), /* Safari, Android, iOS */
+}
