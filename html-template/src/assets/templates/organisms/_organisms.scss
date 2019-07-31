@@ -113,7 +113,7 @@ body {
   height: 100%;
   text-decoration: none;
   color: #000;
-  font-family: tahoma-bold;
+  font-family: 'tahoma-bold';
   font-size: 16px;
   justify-content: center;
   align-items: center;
@@ -162,7 +162,7 @@ body {
     height: auto;
     position: relative;
     background-color: #f0f0f0;
-    padding: 19px 32px;
+    padding: 14px 28px;
 
     &__content {
       display: flex;
@@ -173,7 +173,7 @@ body {
       height: auto;
 
       &__image {
-        margin-right: 25px;
+        margin-right: 20px;
         width: 100%;
         max-width: 381px;
         height: auto;
@@ -333,7 +333,7 @@ body {
   height: auto;
   position: relative;
   display: block;
-  margin-top: 45px;
+  margin-top: 32px;
 
   &__main {
     width: 100%;
